@@ -1,0 +1,89 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+  Version="3.3"
+  Serie="FAC"
+  Folio="13444"
+  Fecha="2022-11-03T15:36:12"
+  Sello="O2SOyDDiTNa+dFe7SPzJO1Ok6974JSSFmhxPE++WXmSFMWTILOCkfyvDxUVga5eCd7bb+Po/5Wl4jbzUqManO0ZHjS4u9jupL5V8kpjDJ2IAuVjh6TsksaiIkocNVbyd9L60e3ftClbVttEd3E3Gp12UeTugu9R7S/VSyHEsN5vcCmo1exYYqhihox6JTPALXz2cWxGQFJ3qprLoFXTYBwzbMftc+YwbxHeU/kAu2wcSaYdn00h44/4sO81EAwotdb38lVUVgEtBRJgtwEMHcWFTzdy8ceveqAnxmaa/NTMiKMYC+Q7Cnp4Dk/9e9r0Lx0BaV5W+VyCiT20cy3THzg=="
+  FormaPago="99"
+  NoCertificado="30001000000400002447"
+  Certificado="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"
+  CondicionesDePago="45 DIAS"
+  SubTotal="41.47"
+  Moneda="USD"
+  TipoCambio="20.0387"
+  Total="48.11"
+  TipoDeComprobante="I"
+  MetodoPago="PPD"
+  LugarExpedicion="78395" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+  <cfdi:Emisor
+    Rfc="IIA040805DZ4"
+    Nombre="GISEDERLAN, S.A. DE C.V."
+    RegimenFiscal="601" />
+  <cfdi:Receptor
+    Rfc="EKU9003173C9"
+    Nombre="DRAXTON MEXICO S DE RL DE CV"
+    UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto
+      ClaveProdServ="31121224"
+      NoIdentificacion="A025P705"
+      Cantidad="2"
+      ClaveUnidad="H87"
+      Unidad="PZ"
+      Descripcion="Adaptor SRW RH A025P705"
+      ValorUnitario="13.78"
+      Importe="27.55">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado
+            Base="27.55"
+            Impuesto="002"
+            TipoFactor="Tasa"
+            TasaOCuota="0.160000"
+            Importe="4.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto
+      ClaveProdServ="31121224"
+      NoIdentificacion="A025P706"
+      Cantidad="1"
+      ClaveUnidad="H87"
+      Unidad="PZ"
+      Descripcion="Adaptor SRW LH A025P706"
+      ValorUnitario="13.92"
+      Importe="13.92">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado
+            Base="13.92"
+            Impuesto="002"
+            TipoFactor="Tasa"
+            TasaOCuota="0.160000"
+            Importe="2.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos
+    TotalImpuestosTrasladados="6.64">
+    <cfdi:Traslados>
+      <cfdi:Traslado
+        Impuesto="002"
+        TipoFactor="Tasa"
+        TasaOCuota="0.160000"
+        Importe="6.64" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital
+      FechaTimbrado="2022-11-03T16:07:21"
+      RfcProvCertif="SPR190613I52"
+      UUID="6e136ec3-9f8d-4e4b-8a9d-3e9ac8fa598e"
+      NoCertificadoSAT="30001000000400002495"
+      SelloCFD="O2SOyDDiTNa+dFe7SPzJO1Ok6974JSSFmhxPE++WXmSFMWTILOCkfyvDxUVga5eCd7bb+Po/5Wl4jbzUqManO0ZHjS4u9jupL5V8kpjDJ2IAuVjh6TsksaiIkocNVbyd9L60e3ftClbVttEd3E3Gp12UeTugu9R7S/VSyHEsN5vcCmo1exYYqhihox6JTPALXz2cWxGQFJ3qprLoFXTYBwzbMftc+YwbxHeU/kAu2wcSaYdn00h44/4sO81EAwotdb38lVUVgEtBRJgtwEMHcWFTzdy8ceveqAnxmaa/NTMiKMYC+Q7Cnp4Dk/9e9r0Lx0BaV5W+VyCiT20cy3THzg=="
+      SelloSAT="Nh7S6vUCSpuOgwmP/J44Yh3/5MQX39TtLHfslxk/o+Y3WGQSvrMJlZHMhLPU87vscIIx83EtsCM4OLc6R+8IYVpZUnQ6gM5ifcOFckc9B+MvExLETWOl6X2/OHccBC+1GSe+Jtku+UKD3FckdoJSlWaeIIRx9sqe9ZcgkCC5F/1CItF3XE0KFyoCJTfJQAhtnCPLG3yfRv/yHVz80DST3C6M12RNGw/Xyh3LOSmk/TRCSr9lYsiVud1bXKKkM4mIsgNsXBQz3Onmb0lELV5cq9p+N/MlhnsNrzb7Daaz44TjMOMEwnigwaciR3qIdQXU2tjg11KHgsmwNwlk1FL3tg=="
+      Version="1.1"></tfd:TimbreFiscalDigital>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

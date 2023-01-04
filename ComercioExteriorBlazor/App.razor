@@ -1,0 +1,69 @@
+﻿<CascadingAuthenticationState>
+   
+   @using ComercioExteriorBlazor.Services;
+   @using ComercioExteriorBlazor.Data;
+   @using ComercioExteriorBlazor.Models;
+
+   @inject IdentityInformation _identity;
+
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+        </Found>
+        <NotFound>
+            <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <p role="alert">Sorry, there's nothing at this address.</p>
+            </LayoutView>
+        </NotFound>
+    </Router>
+
+
+<CascadingBlazoredModal>  
+  @* <Router AppAssembly="@typeof(Program).Assembly"PreferExactMatches="@true">  
+      <Found Context = "routeData">  
+      <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>  
+   </Found>  
+   <NotFound>  
+      <LayoutView Layout="@typeof(MainLayout)">  
+         <p>Sorry, there's nothing at this address.</p>  
+      </LayoutView>  
+   </NotFound>  
+</Router>  *@
+</CascadingBlazoredModal> 
+
+</CascadingAuthenticationState>
+
+@code{
+
+    [Parameter]
+    public InitialApplicationState InitialState { get; set; }
+
+    protected override void OnInitialized()
+    {
+        _identity.Username = InitialState.Username;
+        _identity.Name = InitialState.Name;
+        _identity.IsAuthenticated = InitialState.IsAuthenticated;
+        _identity.Email = InitialState.Email;
+
+        string correo;
+
+        DataAccess da = new DataAccess();
+        Usuario usuario = new Usuario();
+
+        if (_identity.IsAuthenticated)
+        {
+            correo = _identity.Email;
+
+            if (da.cons_UsuarioAcceso(correo, out usuario, out String msgErrorInc))
+            {
+                _identity.IdUsuario = usuario.Id;
+                _identity.IdNegocio = usuario.IdNegocio;
+                _identity.Rol = usuario.Rol;
+            }
+            else
+                _identity.IsAuthenticated = false;
+            }
+    }
+}

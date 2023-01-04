@@ -1,0 +1,97 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  Version="3.3"
+  Serie="FAC"
+  Folio="13447"
+  Fecha="2022-11-04T14:39:50"
+  Sello="FyxiXVT6oJyA0nTg0vY07Sgqu8ct78bQK0W2bY1OJN+S0R4DlXBOJbVu51ANA26W6/RHjWLyccUYTcuq10sGbizpc7gD7rmtK6821ZixLM+B2hdi8DcIyFR3ccv4seivcw9gWwkD8RGNgHFArHY1MdZgQrjszBk9s7/k6S53lnczMoq/M7kVIzTqXWGgxZD08nC44y3Aw/KiNCmqr7P79Sn5SHeE5OMAXd+6zYGrm7wYfdxunrNYyi2fmjIs3U+5/T+QTsDx8GVvBUdjxCHVuQ+4ghSibTCvqDJi4KWiLo1PNE3Q/rnbCl4Q9gmHRN2Vr/mFADzkWWfHrEVElkl6Sw=="
+  FormaPago="99"
+  NoCertificado="30001000000400002447"
+  Certificado="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"
+  CondicionesDePago="45 DIAS"
+  SubTotal="3110.80"
+  Moneda="USD"
+  TipoCambio="20.0387"
+  Total="3110.80"
+  TipoDeComprobante="I"
+  MetodoPago="PPD"
+  LugarExpedicion="78395" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+  <cfdi:Emisor
+    Rfc="IIA040805DZ4"
+    Nombre="GISEDERLAN, S.A. DE C.V."
+    RegimenFiscal="601" />
+  <cfdi:Receptor
+    Rfc="XEXX010101000"
+    Nombre="BENTELER AUTOMOTIVE"
+    ResidenciaFiscal="USA"
+    NumRegIdTrib="310995787"
+    UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto
+      ClaveProdServ="31121224"
+      NoIdentificacion="688007303"
+      Cantidad="88"
+      ClaveUnidad="H87"
+      Unidad="PZ"
+      Descripcion="DISCO BIMETAL MEC 348X30 FA VENTILATED 688007303"
+      ValorUnitario="35.35"
+      Importe="3110.80" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos />
+  <cfdi:Complemento>
+    <cce11:ComercioExterior
+      Version="1.1"
+      TipoOperacion="2"
+      ClaveDePedimento="A1"
+      CertificadoOrigen="0"
+      Incoterm="EXW"
+      Subdivision="0"
+      TipoCambioUSD="20.0387"
+      TotalUSD="3110.80">
+      <cce11:Emisor>
+        <cce11:Domicilio
+          Calle="Calle Eje 114 Núm. 285"
+          Municipio="028"
+          Estado="SLP"
+          Pais="MEX"
+          CodigoPostal="78395" />
+      </cce11:Emisor>
+      <cce11:Receptor>
+        <cce11:Domicilio
+          Calle="2650 N. Opdyke Rd., Building B"
+          Municipio="Auburn Hills"
+          Estado="MI"
+          Pais="USA"
+          CodigoPostal="48326" />
+      </cce11:Receptor>
+      <cce11:Destinatario
+        NumRegIdTrib="310995787"
+        Nombre="BENTELER Automotive Corporation">
+        <cce11:Domicilio
+          Calle="1255 Howell Road"
+          NumeroInterior="Duncan SC 29334"
+          Municipio="Duncan"
+          Estado="SC"
+          Pais="USA"
+          CodigoPostal="29334" />
+      </cce11:Destinatario>
+      <cce11:Mercancias>
+        <cce11:Mercancia
+          NoIdentificacion="688007303"
+          FraccionArancelaria="8708309901"
+          CantidadAduana="88.00"
+          UnidadAduana="06"
+          ValorUnitarioAduana="35.35"
+          ValorDolares="3110.80" />
+      </cce11:Mercancias>
+    </cce11:ComercioExterior>
+    <tfd:TimbreFiscalDigital
+      FechaTimbrado="2022-11-04T14:56:13"
+      RfcProvCertif="SPR190613I52"
+      UUID="9d4f8467-0553-4819-8342-ce93ead9a4ce"
+      NoCertificadoSAT="30001000000400002495"
+      SelloCFD="FyxiXVT6oJyA0nTg0vY07Sgqu8ct78bQK0W2bY1OJN+S0R4DlXBOJbVu51ANA26W6/RHjWLyccUYTcuq10sGbizpc7gD7rmtK6821ZixLM+B2hdi8DcIyFR3ccv4seivcw9gWwkD8RGNgHFArHY1MdZgQrjszBk9s7/k6S53lnczMoq/M7kVIzTqXWGgxZD08nC44y3Aw/KiNCmqr7P79Sn5SHeE5OMAXd+6zYGrm7wYfdxunrNYyi2fmjIs3U+5/T+QTsDx8GVvBUdjxCHVuQ+4ghSibTCvqDJi4KWiLo1PNE3Q/rnbCl4Q9gmHRN2Vr/mFADzkWWfHrEVElkl6Sw=="
+      SelloSAT="nGwEXAgnM976uymqByoqebfxO6dyVkKBseEFhrfGcBaKYxTXuFhcfciHRAMSwD3xW6Q+PyUPuvuyuQL3CsDB+sHi9Ffq3XDduFlOgi0qvN41/1+Kg6cJclXqKqpKB7mJF41aR+S2DopbfOiVFtD3F4pzbwCVAkXfHT/9ezdI38WzF2xIVDtJFDBkpoaP4pWI7j47KSAMMf5bVXjFjXQ0NvpSbmAuWbNw2Q7FOhmycGNI/swnG6wxCukjKzJps+UN/jn+Ak6b5G0W+YuoZRpFi8kqXiOcq/a7FIejkjm31/li1puHLBcH3Txc9cqxb+0iWf65Qw1f4mQ7FkJ6CE9gVw=="
+      Version="1.1"></tfd:TimbreFiscalDigital>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,68 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+  Version="3.3"
+  Serie="A"
+  Folio="371926"
+  Fecha="2022-09-07T15:49:34"
+  Sello="grCMyjRXAZOcavF1yYnxIc8GUHESaGoC1Wer/SvjfnotM8lNlOUQAiGRcTPcyeTlvvW0qsx62DxNc6U10tiy/4Ja7YN7oj70+HyOiMtTc4hdCnHHPoUhEUVJeTd9At3hw2sht50JmeOhYv3Md3t5mj+tCb98jbJR+WeVCU58abSUub1jboLDsm4jCngWE2DfPrI2b8xyXbEt3zWZT88HLU/qXsPSw8ioriKzHhh+gNG8uSdwmcb20uilojXBJAwYWTmf/IFBFFwLRtUnMBz+Oiyjv3zOoDvHlsNlk2t56w0LUL5VrRCi0YjxVNPtdAa7MZ7lTdbpCNZNfWZQ7D2Q2w=="
+  FormaPago="99"
+  NoCertificado="30001000000400002447"
+  Certificado="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"
+  CondicionesDePago="Esta factura sera liquidada en una exhibicion"
+  SubTotal="283.62"
+  Moneda="MXN"
+  Total="329.00"
+  TipoDeComprobante="I"
+  MetodoPago="PPD"
+  LugarExpedicion="25000" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+  <cfdi:Emisor
+    Rfc="IIA040805DZ4"
+    Nombre="CINSA, S.A. DE C.V."
+    RegimenFiscal="623" />
+  <cfdi:Receptor
+    Rfc="EKU9003173C9"
+    Nombre="Salvador Recio"
+    UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto
+      ClaveProdServ="48101909"
+      NoIdentificacion="7501083889238"
+      Cantidad="1"
+      ClaveUnidad="H87"
+      Unidad="PZ"
+      Descripcion="CAFETERA 2 L NEGRO BRILLANTE JASP CINSA  MARCAS CINSA.."
+      ValorUnitario="283.62"
+      Importe="283.62">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado
+            Base="283.62"
+            Impuesto="002"
+            TipoFactor="Tasa"
+            TasaOCuota="0.160000"
+            Importe="45.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos
+    TotalImpuestosTrasladados="45.38">
+    <cfdi:Traslados>
+      <cfdi:Traslado
+        Impuesto="002"
+        TipoFactor="Tasa"
+        TasaOCuota="0.160000"
+        Importe="45.38" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital
+      FechaTimbrado="2022-09-08T09:51:26"
+      RfcProvCertif="SPR190613I52"
+      UUID="6d5847b2-cad3-48ca-bc42-864341c1bbf7"
+      NoCertificadoSAT="30001000000400002495"
+      SelloCFD="grCMyjRXAZOcavF1yYnxIc8GUHESaGoC1Wer/SvjfnotM8lNlOUQAiGRcTPcyeTlvvW0qsx62DxNc6U10tiy/4Ja7YN7oj70+HyOiMtTc4hdCnHHPoUhEUVJeTd9At3hw2sht50JmeOhYv3Md3t5mj+tCb98jbJR+WeVCU58abSUub1jboLDsm4jCngWE2DfPrI2b8xyXbEt3zWZT88HLU/qXsPSw8ioriKzHhh+gNG8uSdwmcb20uilojXBJAwYWTmf/IFBFFwLRtUnMBz+Oiyjv3zOoDvHlsNlk2t56w0LUL5VrRCi0YjxVNPtdAa7MZ7lTdbpCNZNfWZQ7D2Q2w=="
+      SelloSAT="TbFQmfUOM0l9XOXqhArUXiFjRvk4+gkhodyI9p4g04JBQ5UftDV/zMyjcbK7gCkZVfKt7dk2Y09ALMNyH/xiWdUb38RZSSMdvH2dU8+f36jeNRibPZ/WgMwPGoW+iIQgKLSeNfkX8VqXuXEs/2avuVqZnkXeWl1+tx1rLKeFjOkqPvF5rTeD7ApvlXqVTDO+PDSJ8mc7IKifO6otPibjv6UpdqBbQtg6UvjlVb6ImlPROkas1beGCy568kcDGpEHJjAi/NqCwxG5bomSfedRkYzpHP+IaQjqXK90Ehfx0DpiNZf7smm/vqS8s2EKW3pbV2gNt2uQslM/IeqoBHjsfA=="
+      Version="1.1"></tfd:TimbreFiscalDigital>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ComercioExteriorBlazor
+build_property.RootNamespace = ComercioExteriorBlazor
+build_property.ProjectDir = C:\Users\liram\Desktop\ComercioExteriorBlazor_ignacio\ComercioExteriorBlazor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\liram\Desktop\ComercioExteriorBlazor_ignacio\ComercioExteriorBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Components/Dialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Correo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29ycmVvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Correo2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29ycmVvMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/DashBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/DataStage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVN0YWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Incidencias.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5jaWRlbmNpYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Pedimentos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVkaW1lbnRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/TasaCero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFzYUNlcm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Usuarios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-i5qlht1f32
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-suda0zdt0z
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liram/Desktop/ComercioExteriorBlazor_ignacio/ComercioExteriorBlazor/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
