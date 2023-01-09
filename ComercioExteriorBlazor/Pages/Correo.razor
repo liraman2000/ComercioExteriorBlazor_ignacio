@@ -34,10 +34,7 @@
                 </RadzenLabel>
             }
             <RadzenLabel style="font-weight: bold;margin-top:10px" Text="Adjuntar comentarios e incidencias generadas"></RadzenLabel>
-               @* <RadzenCheckBox style="margin-bottom: 10px; margin-left: 05px; margin-right: 05px; margin-top: 10px" Name="Checkbox1" TValue="bool">
-        </RadzenCheckBox>
-        <RadzenLabel style="font-weight: bold" Text="Agregar comentario (Opcional)">
-        </RadzenLabel>*@
+
         <div class="row">
           <div class="col-md-12">
             <RadzenTextArea style="margin-top: 15px; width: 100%" Name="Textarea0" @bind-Value="@s_observacion" MaxLength="500">
@@ -47,6 +44,8 @@
         <div class="row">
           <div class="col-md-12" style="text-align: center">
             <RadzenButton Click="@Enviar" Icon="email" IsBusy="false" Text="Enviar">
+            </RadzenButton>
+                        <RadzenButton Click="@Cancelar" IsBusy="false" Text="Cancelar">
             </RadzenButton>
           </div>
         </div>
@@ -89,14 +88,20 @@
 
     [Parameter]
     public string fecha { get; set; }		
-    
-    
+
+
     DataAccess da = new DataAccess();
 
     private bool? ckAduntarComentarios = true;
     private bool habilitarComentario = false;
     private string? comentario;
     string destinatarios = String.Empty;
+
+    public void Cancelar()
+    {
+        DialogService.Close(true);
+        return;
+    }
 
     public void Enviar()
     {

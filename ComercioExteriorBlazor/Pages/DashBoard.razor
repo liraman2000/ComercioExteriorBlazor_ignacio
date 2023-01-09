@@ -26,25 +26,26 @@
         @*<RadzenHeading Size="H2" Text="DashBoard">
             </RadzenHeading>*@
         <div class="row justify-content-between">
-            <div class="col-md-7">
+            <div class="col-md-1">
                 <h2>DashBoard</h2>                  
             </div>    
 
-        <div class="col-md-5 justify-content-end d-flex">
+        <div class="col-md-7 justify-content-end d-lg-flex">
             <RadzenLabel style="margin-bottom: 5px; margin-left: 10px; margin-right: 10px; margin-top: 5px" Text="Estatus">
             </RadzenLabel>
             @*<RadzenDropDown Data="@IEstatus" Change=@(args => cons_Estatus_by_id(args)) TextProperty="Descripcion" ValueProperty="Id" Placeholder="TODOS" style="height: 31px" Name="Dropdown0" TValue="string">*@
-            <RadzenDropDown Data="@IEstatus" @bind-Value=IdEstatus Change=@(cons_dashboard) TextProperty="Descripcion" 
-            ValueProperty="Id" style="height: 31px" Name="Dropdown0" TValue="int">
+            <RadzenDropDown style="height: 36px; width: 250px" Data="@IEstatus" @bind-Value=IdEstatus  Change=@(cons_dashboard) 
+            TextProperty="Descripcion" ValueProperty="Id" Name="Dropdown0" TValue="int">
             </RadzenDropDown>
             <RadzenLabel style="margin-bottom: 5px; margin-left: 10px; margin-right: 10px; margin-top: 5px" Text="Negocio:">
             </RadzenLabel>
             @*<RadzenDropDown Data="@INegocio" Disabled=@deshabilitado Change=@(args => cons_Negocio_by_id(args)) AllowClear="true" AllowFiltering="true" style="height: 31px" TextProperty="Descripcion" ValueProperty="Id" Name="Dropdown0" TValue="int" Placeholder="Seleccione...">*@
-            <RadzenDropDown Data="@INegocio" @bind-Value=IdNegocio Disabled=@deshabilitado Change=@(cons_dashboard) AllowClear="true" AllowFiltering="true" style="height: 31px" TextProperty="Descripcion" ValueProperty="Id" Name="Dropdown0" TValue="string" Placeholder="Seleccione...">
+            <RadzenDropDown style="height: 36px; width: 250px" Data="@INegocio" @bind-Value=IdNegocio Disabled=@deshabilitado Change=@(cons_dashboard) AllowClear="true" AllowFiltering="true" 
+            TextProperty="Descripcion" ValueProperty="Id" Name="Dropdown0" TValue="string" Placeholder="Seleccione...">
             </RadzenDropDown>
             <RadzenLabel style="margin-bottom: 5px; margin-left: 10px; margin-right: 10px; margin-top: 5px" Text="Año:">
             </RadzenLabel>
-            <RadzenDropDown Data="@IYears" @bind-Value=iYear Change=@(cons_dashboard)  style="height: 31px" Name="Dropdown5"  TextProperty="Year" ValueProperty="Year" TValue="int" AllowClear="false">
+            <RadzenDropDown style="height: 36px; width: 100px" Data="@IYears" @bind-Value=iYear Change=@(cons_dashboard) Name="Dropdown5"  TextProperty="Year" ValueProperty="Year" TValue="int" AllowClear="false">
             </RadzenDropDown>
             </div>
         </div>
@@ -127,6 +128,8 @@
                                     </RadzenButton>
                                     }
                                 }   
+                                    <RadzenButton Click="@((args)=>Observacion(record.IdPeriodoNegocio, record.Periodo,record.Negocio))" Text="Obs.">
+                                    </RadzenButton>
                                                                                                                 
                                     </div>
                             </ChildContent>
@@ -307,6 +310,17 @@
             new Dictionary<string, object>() { { "IdPeriodo", IdPeriodo }, 
             { "IdNegocio", IdNegocio }, { "Clave", "RECHAZADO" },  { "Estatus", Estatus }, 
             { "Negocio", Negocio }, { "DocsTotales", DocsTotales }, { "Incidencias", Incidencias }, { "Activas", Activas }, { "DescPeriodo", DescPeriodo } },
+            new DialogOptions() {ShowClose=false, Width = "700px", Height = "350px", Resizable = false, Draggable = false });
+
+        OnInitializedAsync();
+
+    }
+
+    public async Task Observacion(int IdPeriodoNegocio,string periodo, string negocio)
+    {
+                                              
+        await DialogService.OpenAsync<Dash_Obs>($"Observaciones " + periodo +"-"+ negocio,
+            new Dictionary<string, object>() { { "IdPeriodoNegocio", IdPeriodoNegocio }},
             new DialogOptions() {ShowClose=false, Width = "700px", Height = "350px", Resizable = false, Draggable = false });
 
         OnInitializedAsync();

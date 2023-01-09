@@ -46,6 +46,8 @@
           <div class="col-md-12" style="text-align: center">
                <RadzenButton Click="@Enviar"  Icon="email" IsBusy="false" Text="Enviar">
             </RadzenButton>
+            <RadzenButton Click="@Cancelar" Visible=@visible IsBusy="false" Text="Cancelar">
+            </RadzenButton>
           </div>
         </div>
       </div>
@@ -93,9 +95,7 @@
     public int Incidencias { get; set; }
 
     [Parameter]
-    public int 
-    
-    Activas { get; set; }
+    public int Activas { get; set; }
 
     [Parameter]
     public string NomUsuario { get; set; }
@@ -107,6 +107,20 @@
     public string fecha { get; set; }
 
     DataAccess da = new DataAccess();
+    public bool visible = true;
+
+    public void Cancelar()
+    {
+        DialogService.Close(true);
+        return;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (IdPeriodo is null)
+            visible = false;
+
+    }
 
     public void Enviar()
     {

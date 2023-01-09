@@ -1009,5 +1009,61 @@ namespace ComercioExteriorBlazor.Data
             return boolProcess;
         }
 
+        public Boolean ins_ObsPeriodo(int IdPeriodoNegocio, string s_observacion, out String msgError)
+        {
+            bool boolProcess = true;
+            DataTable dt = new DataTable();
+            msgError = string.Empty;
+            int i = 0;
+            SqlParameter[] @params = new SqlParameter[2];
+            @params[i] = new SqlParameter("@IdPeriodoNegocio", IdPeriodoNegocio);
+            i++;
+            @params[i] = new SqlParameter("@s_observacion", s_observacion);
+
+            try
+            {
+                if (!bd.ExecuteProcedure(conexionBD, "ins_ObsPeriodo", @params, out dt, 120))
+                {
+                    boolProcess = false;
+                    msgError = bd._error.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                boolProcess = false;
+                msgError = ex.ToString();
+            }
+            return boolProcess;
+        }
+
+        public bool cons_ObsPeriodo(int IdPeriodoNegocio, out DataTable dt,out String msgError)
+        {
+           bool booleanProcess = true;
+            msgError = string.Empty;
+            dt = new DataTable();
+            string s_observacion = String.Empty;
+           
+
+            SqlParameter[] @params = new SqlParameter[1];
+            @params[0] = new SqlParameter("@idPeriodoNegocio", IdPeriodoNegocio);
+
+            try
+            {
+                if (!bd.ExecuteProcedure(conexionBD, "cons_ObsPeriodo", @params, out dt, 120))
+                {
+                    msgError = bd._error.ToString();
+                    booleanProcess = true;
+                }
+                else
+                    booleanProcess = true;
+         
+            }
+            catch (Exception ex)
+            {
+
+                msgError = ex.ToString();
+            }
+            return booleanProcess;
+        }
     }
 }
