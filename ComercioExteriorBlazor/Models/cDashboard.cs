@@ -14,5 +14,7 @@
         public string Estatus { get; set; }
         public string Periodo { get; set; }
         public string Clave { get; set; }
+        public string Observaciones { get; set; }
+        
     }
 }

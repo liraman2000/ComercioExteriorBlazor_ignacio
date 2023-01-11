@@ -109,29 +109,41 @@
 
                                 @if (record.Clave == "CERRADO" || record.Clave == "INCIDENCIAS")
                                 {
+                                    if (_identity.Rol != "Lectura")
+                                    {
                                     <RadzenButton Click="@((args)=>Autoriza(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias,record.Activas,record.Periodo))" Icon="done" Disabled="true" style="background-color: #279239; height: 30; margin-left: 10px; margin-right: 05px; margin-top: 0px; width: 42.63750076293945px">
                                     </RadzenButton>
+
                                     @if (_identity.Rol != "Negocio") 
                                     {
-                                    <RadzenButton Click="@((args)=>Revision(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias, record.Activas,record.Periodo))" Icon="clear" Disabled="true" style="background-color: #ff4173; height: 30; margin-left: 05px; margin-right: 10px; margin-top: 0px; width: 42.63750076293945px">
-                                    </RadzenButton>
+                                        <RadzenButton Click="@((args)=>Revision(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias, record.Activas,record.Periodo))" Icon="clear" Disabled="true" style="background-color: #ff4173; height: 30; margin-left: 05px; margin-right: 10px; margin-top: 0px; width: 42.63750076293945px">
+                                        </RadzenButton>
+                                    }
+                                    }
+                                    if (record.Observaciones != String.Empty)
+                                    {
+                                        <RadzenButton Click="@((args)=>Observacion(record.IdPeriodoNegocio, record.Periodo,record.Negocio))" Text="Obs.">
+                                        </RadzenButton>
                                     }
                                 }
                                 else
-                                {              
-                                    <RadzenButton Click="@((args)=>Autoriza(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias,record.Activas,record.Periodo))" Icon="done" style="background-color: #279239; height: 30; margin-left: 10px; margin-right: 05px; margin-top: 0px; width: 42.63750076293945px">
-                                    </RadzenButton>
-                     
-                                    @if (_identity.Rol != "Negocio") 
+                                {
+
+                                    if (_identity.Rol != "Lectura")
                                     {
-                                    <RadzenButton Click="@((args)=>Revision(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias,record.Activas, record.Periodo))" Icon="clear" style="background-color: #ff4173; height: 30; margin-left: 05px; margin-right: 10px; margin-top: 0px; width: 42.63750076293945px">
-                                    </RadzenButton>
+                                        <RadzenButton Click="@((args)=>Autoriza(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias,record.Activas,record.Periodo))" Icon="done" style="background-color: #279239; height: 30; margin-left: 10px; margin-right: 05px; margin-top: 0px; width: 42.63750076293945px">
+                                        </RadzenButton>
+
+                                        @if (_identity.Rol == "Comercio" || _identity.Rol == "Administrador")
+                                        {
+                                            <RadzenButton Click="@((args)=>Revision(record.IdPeriodo, record.IdNegocio,record.Clave,record.Estatus, record.Negocio, record.DocumentosTotales, record.Incidencias,record.Activas, record.Periodo))" Icon="clear" style="background-color: #ff4173; height: 30; margin-left: 05px; margin-right: 10px; margin-top: 0px; width: 42.63750076293945px">
+                                            </RadzenButton>
+                                        }
                                     }
+
                                 }   
-                                    <RadzenButton Click="@((args)=>Observacion(record.IdPeriodoNegocio, record.Periodo,record.Negocio))" Text="Obs.">
-                                    </RadzenButton>
                                                                                                                 
-                                    </div>
+                            </div>
                             </ChildContent>
                         </RadzenFieldset>
                     }
@@ -282,7 +294,7 @@
             new Dictionary<string, object>() { { "IdPeriodo", IdPeriodo }, 
             { "IdNegocio", IdNegocio }, { "Estatus", Estatus }, { "Negocio", Negocio }, 
             { "DocsTotales", DocsTotales }, { "Incidencias", Incidencias },{ "Activas", Activas },{ "DescPeriodo", DescPeriodo }},
-            new DialogOptions() {ShowClose=false, Width = "700px", Height = "350px", Resizable = false, Draggable = false });
+            new DialogOptions() {ShowClose=false, Width = "700px", Height = "450px", Resizable = false, Draggable = false });
         }
         else
         {   await DialogService.OpenAsync<Correo>($"Notificación de Envio a Revisión",

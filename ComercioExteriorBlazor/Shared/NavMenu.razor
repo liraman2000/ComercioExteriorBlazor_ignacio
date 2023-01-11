@@ -35,31 +35,6 @@
 
     <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
         <nav class="flex-column">
-            @*                <div class="nav-item px-3">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-                </NavLink>
-                </div>*@
-            @*     <div class="nav-item px-3">
-                <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-                </NavLink>
-                </div>
-                <div class="nav-item px-3">
-                <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-                </NavLink>
-                </div>
-                <div class="nav-item px-3">
-                <NavLink class="nav-link" href="correo">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Correo
-                </NavLink>
-                </div>
-                <div class="nav-item px-3">
-                <NavLink class="nav-link" href="correo-2">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Correo2
-                </NavLink>
-                </div>*@
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="dash-board">
                     <span class="oi oi-list-rich" aria-hidden="true"></span> DashBoard
@@ -85,7 +60,7 @@
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Pedimentos
                 </NavLink>
                 </div>*@
-            @if (_identity.Rol != "Negocio")
+            @if (_identity.Rol == "Comercio" || _identity.Rol=="Administrador")
             {
                 <div class="nav-item px-3">
                     <NavLink class="nav-link" href="usuarios">

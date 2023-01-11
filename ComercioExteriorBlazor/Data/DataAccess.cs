@@ -707,6 +707,7 @@ namespace ComercioExteriorBlazor.Data
                         dh.IdPeriodoNegocio = Convert.ToInt32(dt.Rows[r]["IdPeriodoNegocio"]);
                         dh.IdNegocio = Convert.ToInt32(dt.Rows[r]["IdNegocio"]);
                         dh.Activas = Convert.ToInt32(dt.Rows[r]["Activas"]);
+                        dh.Observaciones = dt.Rows[r]["Observaciones"].ToString();
 
                         lista.Add(dh);
                     }
@@ -1009,15 +1010,20 @@ namespace ComercioExteriorBlazor.Data
             return boolProcess;
         }
 
-        public Boolean ins_ObsPeriodo(int IdPeriodoNegocio, string s_observacion, out String msgError)
+        public Boolean ins_ObsPeriodo(int? IdPeriodo,int IdNegocio,int IdUsuario, string s_observacion, out String msgError)
         {
             bool boolProcess = true;
             DataTable dt = new DataTable();
             msgError = string.Empty;
             int i = 0;
-            SqlParameter[] @params = new SqlParameter[2];
-            @params[i] = new SqlParameter("@IdPeriodoNegocio", IdPeriodoNegocio);
+            SqlParameter[] @params = new SqlParameter[4];
+            @params[i] = new SqlParameter("@IdPeriodo", IdPeriodo);
             i++;
+            @params[i] = new SqlParameter("@IdNegocio", IdNegocio);
+            i++;
+            @params[i] = new SqlParameter("@IdUsuario", IdUsuario);
+            i++;
+            if(s_observacion.Length > 0)
             @params[i] = new SqlParameter("@s_observacion", s_observacion);
 
             try

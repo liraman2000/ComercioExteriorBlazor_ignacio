@@ -32,7 +32,7 @@
 
                 <div class="col-md-7">
 
-                    @if (_identity.Rol != "Negocio")
+                    @if (_identity.Rol == "Comercio" || _identity.Rol=="Administrador")
                     {
                         <div class="row">
                             <div class="col-6">
@@ -154,7 +154,7 @@
             return;
         }
         
-        this.info = $"% '{name}' / {args.Loaded} of {args.Total} bytes.";
+        this.info = $"% '{name}' ";// / {args.Loaded} of {args.Total} bytes.";
         this.progress = args.Progress;
 
         string filepath = configuration.GetValue<string>("Parameter:urlDocumentos");

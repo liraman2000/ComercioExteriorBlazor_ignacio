@@ -41,11 +41,22 @@
             </RadzenTextArea>
           </div>
         </div>
-        <div class="row">
+              @if (_identity.Rol != "Negocio")
+                {
+                    <RadzenLabel style="font-weight: bold;margin-top:10px" Text="Observaciones cierre periodo"></RadzenLabel>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                    <RadzenTextArea style="margin-top: 15px; width: 100%" Name="Textarea1" @bind-Value="@s_observacionPeriodo" MaxLength="500">
+                    </RadzenTextArea>
+                  </div>
+                </div>
+                }
+                <div class="row">
           <div class="col-md-12" style="text-align: center">
             <RadzenButton Click="@Enviar" Icon="email" IsBusy="false" Text="Enviar">
             </RadzenButton>
-                        <RadzenButton Click="@Cancelar" IsBusy="false" Text="Cancelar">
+            <RadzenButton Click="@Cancelar" IsBusy="false" Text="Cancelar">
             </RadzenButton>
           </div>
         </div>
@@ -61,6 +72,7 @@
     private string user = String.Empty;
     private string email = String.Empty;
     private string s_observacion = String.Empty;
+    private string s_observacionPeriodo = String.Empty;
 
     [Parameter]
     public int? IdPeriodo { get; set; }
@@ -129,7 +141,7 @@
                 enviaMail();
             }
 
-        }        
+        }     
 
     }
 
@@ -159,7 +171,7 @@
 
             if (da.upd_EstatusPeriodoNegocio(IdPeriodo, IdNegocio, cambioEstatus, out String msgErrorInc))
             {
-                DialogService.Close(true);
+              //  DialogService.Close(true);
                // UriHelper.NavigateTo("/ComercioExteriorBlazor/dash-board");
                 @if (_identity.Rol == "Negocio")
                     DialogService.Alert("Periodo enviado a revisión", "Aviso", new AlertOptions() { OkButtonText = "OK" });
@@ -167,7 +179,13 @@
                     DialogService.Alert("Periodo cerrado correctamente", "Aviso", new AlertOptions() { OkButtonText = "OK" });
 
             }
+
+            if (cambioEstatus == "CERRADO")
+                da.ins_ObsPeriodo(IdPeriodo, IdNegocio, _identity.IdUsuario, s_observacionPeriodo, out msgError);
+     
+           
             DialogService.Close(true);
+            
 
         }
         catch (Exception e)

@@ -27,15 +27,15 @@
 
         <div class="row">
           <div class="col-md-12">
-            <RadzenTextArea style="margin-top: 15px;heigth:100%; width: 100%" Name="Textarea0" Disabled=@deshabilita 
+            <RadzenTextArea style="margin-top: 15px;height:160px; width: 100%" Name="Textarea0" Disabled=@deshabilita 
             @bind-Value="@s_observacion" MaxLength="500">
             </RadzenTextArea>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12" style="text-align: center">
-            <RadzenButton Click="@Grabar" Icon="save" IsBusy="false" Disabled=@deshabilita Text="Grabar">
-            </RadzenButton>
+@*            <RadzenButton Click="@Grabar" Icon="save" IsBusy="false" Disabled=@deshabilita Text="Grabar">
+            </RadzenButton>*@
             <RadzenButton Click="@Cancelar" IsBusy="false" Text="Regresar">
             </RadzenButton>
           </div>
@@ -78,7 +78,7 @@
                 s_observacion = dt.Rows[0]["Observaciones"].ToString();
                 estatusPeriodo = dt.Rows[0]["Estatus"].ToString();
 
-                if (estatusPeriodo == "CERRADO")
+                if (estatusPeriodo == "CERRADO" || estatusPeriodo =="INCIDENCIAS")
                     deshabilita = true;
             }
 
@@ -89,18 +89,17 @@
     }
     public void Grabar()
     {
+        //try
+        //{
+        //    if (da.ins_ObsPeriodo(IdPeriodoNegocio, s_observacion, out String msgError))
+        //    {
+        //        DialogService.Alert("Comentario Actualizado", "Aviso", new AlertOptions() { OkButtonText = "OK" });
 
-        try
-        {
-            if (da.ins_ObsPeriodo(IdPeriodoNegocio, s_observacion, out String msgError))
-            {
-                DialogService.Alert("Comentario Actualizado", "Aviso", new AlertOptions() { OkButtonText = "OK" });
-
-                DialogService.Close(true);
-            }
-        }
-        catch
-        { }
+        //        DialogService.Close(true);
+        //    }
+        //}
+        //catch
+        //{ }
     }
     public void Cancelar()
     {
