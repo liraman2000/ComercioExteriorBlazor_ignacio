@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {}
+    "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {
+    "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
+        "projectUniqueName": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
         "projectName": "ComercioExteriorBlazor",
-        "projectPath": "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
+        "projectPath": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
         "packagesPath": "C:\\Users\\liram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\obj\\",
+        "outputPath": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"

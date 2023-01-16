@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UkXIF0Jzol/kQiMXkzidD+LTGurOFpvHhK0L7evYjQty0yAOWp1Og+pgeeveoLxsKBoF4JlyOBWD54Uh7OQfg==",
+  "dgSpecHash": "btmpg7Li4H5c6MtdVswiT6d4jyiq6+JsWURzroKyP1P8rsGxFQ+yvszxAchsGuvChaxKcMQ/ajdiwv/q/IlhVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\liram\\Desktop\\ComercioExteriorBlazor_ignacio\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
+  "projectFilePath": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liram\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\liram\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

@@ -215,51 +215,51 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexterior
 ++appsettings.Development.json
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.App.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.12\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.13\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
 ++Microsoft.AspNetCore.App.CodeFixes
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.12\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.13\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 ++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.112\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
 ++dll_Gis
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\dlls\dll_gis.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\dll_gis
 ++Microsoft.AspNetCore.App
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\microsoft.netcore.app
 ++Blazored.Modal (7.1.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1295
-++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1294
-++Microsoft.AspNetCore.Authentication.OpenIdConnect (6.0.7)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1290
-++Microsoft.EntityFrameworkCore.Design (7.0.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1289
-++Microsoft.Identity.Web (1.16.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1291
-++Microsoft.Identity.Web.UI (1.16.0)
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1288
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1287
+++Microsoft.AspNetCore.Authentication.OpenIdConnect (6.0.7)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1283
+++Microsoft.EntityFrameworkCore.Design (7.0.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1282
+++Microsoft.Identity.Web (1.16.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1284
+++Microsoft.Identity.Web.UI (1.16.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1281
 ++Radzen.Blazor (4.2.3)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1292
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1285
 ++System.Data.SqlClient (4.8.3)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1293
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1286
 ++fonts
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\assets\fonts\
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\css\open-iconic\font\fonts\
@@ -291,7 +291,7 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexterior
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\xmldocs\6866_timbrado.xml
 ++6884_Timbrado.xml
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\xmldocs\6884_timbrado.xml
-++Factura ok pero dif pedimento.txt
+++Archivo prueba4.txt
 ++AddUser.razor.designer.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\pages\adduser.razor.designer.cs
 ++Correo.razor.designer.cs
@@ -388,5 +388,5 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexterior
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
 ++open-iconic.woff
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
-++Archivo prueba4.txt
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\datastage_tmp\jose.lira.ext\archivo prueba4.txt
+++1052811_505.asc
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\desktop\comercioexteriorblazor_ignacio\comercioexteriorblazor\datastage_tmp\jose.lira.ext\1052811_505.asc

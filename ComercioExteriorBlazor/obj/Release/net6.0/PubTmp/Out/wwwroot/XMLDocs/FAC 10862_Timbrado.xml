@@ -1,17 +1,17 @@
 <cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   Version="3.3"
   Serie="FAC"
-  Folio="13448"
-  Fecha="2022-11-04T14:39:50"
-  Sello="UC8Q8GJF2VI/VtvnMCmMxGJSwAIevuGyCkO3GQklE8JqhrNZ0Qs5c3m56i1IKuv5gUBBlc/KBAv62KF4L+foOsP43EvIG+jSssFytgB4taki+GUhpS5HcIKvnuvUou6ss3MfgDdDyReebucSdXZ41c5PY6REIyYw+HFW26mKmz3HAVgikMxt/Bh86KDhSjgT6tawJF6KKP/yAnFC6xFgrEJnTFR2anu03rmVx+IqGFz0sZD8ZmieZZ9qpj/WXss+qPIoEv82pUBZBzVXUvLZyBnUuuWobA5Sq/xTEXjbetCpN0XBxZBOpDFSKnTn9g9M9lznmxKrLI9bL8a67EVgGQ=="
+  Folio="10862"
+  Fecha="2022-01-31T17:55:18"
+  Sello="TQ4MZfp9qU1J+yXF+iRujb9boMjN8if3OjR/UI/mkLrq4M84BCrgv14P2Kx94VhuVhVeM4DyDlQbyLRadvZEW+kg/mSNh0bb+vQE9DSEKv1TbeM0Lpk8ShNcUcwBPO80zX0q2h4eD2B3WzUrUDMIvd1mZxLS6xE0C+P8xTiuJWs/+/3LAs2+NTQr/LT77VhqUJk8zbwZ73S1BayoQ7Gunkh6MAbic/C9OfF4j/eW6cf5aBX91CSrkKaVxErPO2PTNKf+EXgd01vCqNbl7kiIr6zhf+1ghuoMGat8vDzigDuNNosjSV1OG7vypRbLSfKsUKVMGqwhJ8j6gQQrsfdP+g=="
   FormaPago="99"
   NoCertificado="30001000000400002447"
   Certificado="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"
   CondicionesDePago="45 DIAS"
-  SubTotal="899.76"
+  SubTotal="1068.13"
   Moneda="USD"
-  TipoCambio="20.0387"
-  Total="899.76"
+  TipoCambio="20.933"
+  Total="1068.13"
   TipoDeComprobante="I"
   MetodoPago="PPD"
   LugarExpedicion="78395" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
@@ -22,20 +22,20 @@
     RegimenFiscal="601" />
   <cfdi:Receptor
     Rfc="XEXX010101000"
-    Nombre="BMW CONSOLIDATION SERVICES CO., LLC"
+    Nombre="FORD MOTOR COMPANY"
     ResidenciaFiscal="USA"
-    NumRegIdTrib="320308060"
+    NumRegIdTrib="380549190"
     UsoCFDI="P01" />
   <cfdi:Conceptos>
     <cfdi:Concepto
-      ClaveProdServ="31121224"
-      NoIdentificacion="6880073-03"
-      Cantidad="24"
+      ClaveProdServ="31121226"
+      NoIdentificacion="LX6C 3K170 C2A"
+      Cantidad="64"
       ClaveUnidad="H87"
       Unidad="PZ"
-      Descripcion="DISCO BIMETAL MEC 348X30 FA VENTILATED 688007303"
-      ValorUnitario="37.49"
-      Importe="899.76" />
+      Descripcion="PORTAMANGUETAS CX483 RH 170"
+      ValorUnitario="16.69"
+      Importe="1068.13" />
   </cfdi:Conceptos>
   <cfdi:Impuestos />
   <cfdi:Complemento>
@@ -46,8 +46,8 @@
       CertificadoOrigen="0"
       Incoterm="FCA"
       Subdivision="0"
-      TipoCambioUSD="20.0387"
-      TotalUSD="899.76">
+      TipoCambioUSD="20.933"
+      TotalUSD="1068.13">
       <cce11:Emisor>
         <cce11:Domicilio
           Calle="Calle Eje 114 Núm. 285"
@@ -58,40 +58,38 @@
       </cce11:Emisor>
       <cce11:Receptor>
         <cce11:Domicilio
-          Calle="PO BOX 11000"
-          NumeroInterior="SPARTANBURG, SOUTH CAROLINA 29304, USA"
-          Municipio="Spartanburg"
-          Estado="SC"
+          Calle="2000 FERN VALLEY ROAD, LOUISVILLE 40213"
+          Estado="KY"
           Pais="USA"
-          CodigoPostal="29304" />
+          CodigoPostal="40213" />
       </cce11:Receptor>
       <cce11:Destinatario
-        NumRegIdTrib="320308060"
-        Nombre="BMW CONSOLIDATION SERVICES CO., LLC">
+        NumRegIdTrib="380549190"
+        Nombre="GZ7WE-HEARN INDUSTRIAL SERVICES">
         <cce11:Domicilio
-          Calle="450 Global Commerce Blvd. Greer"
-          Municipio="GREER"
-          Estado="SC"
+          Calle="1234 GARDINER LANE"
+          Municipio="LOUISVILLE"
+          Estado="KY"
           Pais="USA"
-          CodigoPostal="29651" />
+          CodigoPostal="40213" />
       </cce11:Destinatario>
       <cce11:Mercancias>
         <cce11:Mercancia
-          NoIdentificacion="6880073-03"
-          FraccionArancelaria="8708309901"
-          CantidadAduana="24.00"
+          NoIdentificacion="LX6C 3K170 C2A"
+          FraccionArancelaria="8708800500"
+          CantidadAduana="64.00"
           UnidadAduana="06"
-          ValorUnitarioAduana="37.49"
-          ValorDolares="899.76" />
+          ValorUnitarioAduana="16.69"
+          ValorDolares="1068.13" />
       </cce11:Mercancias>
     </cce11:ComercioExterior>
     <tfd:TimbreFiscalDigital
-      FechaTimbrado="2022-11-04T14:56:28"
+      FechaTimbrado="2022-02-01T09:48:50"
       RfcProvCertif="SPR190613I52"
-      UUID="25b0f67e-0765-4546-9db4-45ee2abb1ced"
+      UUID="817e95dc-7dc1-4782-a060-0e997f0d6dc8"
       NoCertificadoSAT="30001000000400002495"
-      SelloCFD="UC8Q8GJF2VI/VtvnMCmMxGJSwAIevuGyCkO3GQklE8JqhrNZ0Qs5c3m56i1IKuv5gUBBlc/KBAv62KF4L+foOsP43EvIG+jSssFytgB4taki+GUhpS5HcIKvnuvUou6ss3MfgDdDyReebucSdXZ41c5PY6REIyYw+HFW26mKmz3HAVgikMxt/Bh86KDhSjgT6tawJF6KKP/yAnFC6xFgrEJnTFR2anu03rmVx+IqGFz0sZD8ZmieZZ9qpj/WXss+qPIoEv82pUBZBzVXUvLZyBnUuuWobA5Sq/xTEXjbetCpN0XBxZBOpDFSKnTn9g9M9lznmxKrLI9bL8a67EVgGQ=="
-      SelloSAT="UNq0qBXov/j28OZDvOeJ1fMbhpg3EBlrzdfdTf2Dgnl4UbzNlKv3LyCm+JgrsN7lWHeJ13iGoJhj+0EPI8JS8dTYWPpumIwIKzO4Wu/wlomrIXFA8VUVFUssH7p0T+T95A0LBYytEtWbODI0pA5iXFTEzmGm0LsFV5MfrGake81MAvO/X1ECxvzF+myEETfYDDNPtkmECTx0dpBdybrUHYV4M34VOjLa5iUBi56rjF3ztHO2+ODwRRR5FwQ+JXf72nuW4Me0W9N9u/gJgo8QhXfHsPLMGKM3mvRJRnzCy7Lsc6vSvaa5g0Htj4z/urCPRAKl0jcET0/nMMp8nW+c8g=="
+      SelloCFD="TQ4MZfp9qU1J+yXF+iRujb9boMjN8if3OjR/UI/mkLrq4M84BCrgv14P2Kx94VhuVhVeM4DyDlQbyLRadvZEW+kg/mSNh0bb+vQE9DSEKv1TbeM0Lpk8ShNcUcwBPO80zX0q2h4eD2B3WzUrUDMIvd1mZxLS6xE0C+P8xTiuJWs/+/3LAs2+NTQr/LT77VhqUJk8zbwZ73S1BayoQ7Gunkh6MAbic/C9OfF4j/eW6cf5aBX91CSrkKaVxErPO2PTNKf+EXgd01vCqNbl7kiIr6zhf+1ghuoMGat8vDzigDuNNosjSV1OG7vypRbLSfKsUKVMGqwhJ8j6gQQrsfdP+g=="
+      SelloSAT="FD/e7ZQ0fBCfyBmdtA9/6ZQoIFr6QnWq8WJ0sHLK1Ncc2MM9x1w62FroCwMud0SwqCNdNQhL07k1POBgPfd+VB5WeO0TAfQ3hTPhJbcyqAwcOUwmDCIdcKp+pGuCFh7Vz+xwO8kr0gAFJhe0g4OsHY+gJQ2P4x03KX+w8llDhfl3V9tnyhL2ZkE4SdCrua4AC0k/nbHtMlWHTbErLcKYDwUU4dBeYIvcv4VAoJQ+ocnec3EFAVM2kso8mWgy78aGn2zS67i0whC0AySCoB211/iq9LuQQuuE/MKDdWeI9NE1mIwCzaQcIt09BgvSWwaknvjWR2btI5SSgq5NHv8Mtw=="
       Version="1.1"></tfd:TimbreFiscalDigital>
   </cfdi:Complemento>
 </cfdi:Comprobante>
