@@ -134,6 +134,7 @@
     cDataStage datastage = new cDataStage();
 
     private string value;
+    private string filename_complete;
 
     private static List<cDataStage> ?lista { get; set; }
     bool deshabilitado = false;
@@ -162,7 +163,7 @@
         //foreach (var file in args.Files)
         //    filename = file.Name;
 
-        string filename_complete = relativePath + "/" + filename;
+        filename_complete = relativePath + "/" + filename;
 
         if (this.progress == 100)
         {
@@ -319,8 +320,11 @@
 
         if (!isValid)
         {
-            msgError = "Error al cargar el archivo, no tiene el formato correcto.";
-            return;
+            lista = CargaDoc(filename_complete);
+            msgError = "";
+
+         //   msgError = "Error al cargar el archivo, no tiene el formato correcto.";
+       //     return;
         }
 
         try
