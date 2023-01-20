@@ -32,7 +32,7 @@
 
                 <div class="col-md-7">
 
-                    @if (_identity.Rol == "Comercio" || _identity.Rol=="Administrador")
+                    @if (_identity.Rol == "Comercio" || _identity.Rol == "Administrador")
                     {
                         <div class="row">
                             <div class="col-6">
@@ -43,7 +43,7 @@
                         <RadzenUpload Url="upload/single" ChooseText="Carga Archivo..."  accept=" .asc, .txt" Progress="@((args)=> OnProgress(args, "Archivo listo"))"></RadzenUpload>
                         <RadzenTextBox Value=@fileName Disabled=true Name="Textbox0">
                         </RadzenTextBox>
-                        <RadzenButton Icon="fact_check" Text="Validar" Click="@LeerArchivo">
+                        <RadzenButton Icon="fact_check" Disabled=@cargando Text="Validar" Click="@LeerArchivo">
                         </RadzenButton>
                         <RadzenLabel style="color:red ;margin-bottom: fpx; margin-left: 5px; margin-right: 5px; margin-top: 10px"  @bind-Text=msgError>
                         </RadzenLabel>
@@ -59,34 +59,34 @@
                             AllowClear="true" AllowFiltering="true" Name="cbNegocio" TValue="string" Change=@(cons_Documentos)>
                     </RadzenDropDown>
                     @*Change=@(args => cons_Negocio_by_id(args))>*@
-    @*                <RadzenLabel style="margin-bottom: fpx; margin-left: 5px; margin-right: 5px; margin-top: 10px" Text="Periodo:">
-                    </RadzenLabel>
-                    <RadzenDatePicker DateFormat="MMMM-yyyy" @bind-Value=periodo style="margin-left: 5px; margin-right: 15px" Name="Datepicker0" 
-                            TValue="DateTime" Change=@(cons_Documentos)>
-                    </RadzenDatePicker>*@
+                    @*                <RadzenLabel style="margin-bottom: fpx; margin-left: 5px; margin-right: 5px; margin-top: 10px" Text="Periodo:">
+                        </RadzenLabel>
+                        <RadzenDatePicker DateFormat="MMMM-yyyy" @bind-Value=periodo style="margin-left: 5px; margin-right: 15px" Name="Datepicker0" 
+                        TValue="DateTime" Change=@(cons_Documentos)>
+                        </RadzenDatePicker>*@
                 </div>
             </div>
 
-@*            <RadzenTabs @bind-SelectedIndex=@selectedIndex Change=@OnChange RenderMode="TabRenderMode.Server" style="height: 561px; width: 100%">
+            @*            <RadzenTabs @bind-SelectedIndex=@selectedIndex Change=@OnChange RenderMode="TabRenderMode.Server" style="height: 561px; width: 100%">
                 <Tabs>
-                    <RadzenTabsItem Icon="receipt" Selected="true" Text="Pedimentos">
-                        <ChildContent>*@
-                            <RadzenDataGrid AllowPaging="true" AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" 
+                <RadzenTabsItem Icon="receipt" Selected="true" Text="Pedimentos">
+                <ChildContent>*@
+            <RadzenDataGrid AllowPaging="true" AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" 
                                       PageSize="10" AllowSorting="true" ColumnWidth="150px" Data="@documentos" FilterMode="Radzen.FilterMode.Advanced" TItem="Documento"
                                       @ref="grid0" RowSelect="@Grid0RowSelect">
-                                <Columns>
-                                    <RadzenDataGridColumn TItem="Documento" Property="Id" Title="ID" Visible="false" Width="0%">
-                                    </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="Documento" Property="Archivo" Title="Archivo DataStage" Width="30%">
-                                    </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="Documento" Property="Negocio" Title="Negocio" Width="20%">
-                                    </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="Documento" Property="Nombre" Title="Usuario Alta" Width="20%">
-                                    </RadzenDataGridColumn>
-                                     <RadzenDataGridColumn TItem="Documento" Property="Correo" Title="Correo" Width="20%">
-                                    </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="Documento" Property="FechaAlta" Title="Fecha Captura" Width="20%">
-                                    </RadzenDataGridColumn>
+                <Columns>
+                    <RadzenDataGridColumn TItem="Documento" Property="Id" Title="ID" Visible="false" Width="0%">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="Documento" Property="Archivo" Title="Archivo DataStage" Width="30%">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="Documento" Property="Negocio" Title="Negocio" Width="20%">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="Documento" Property="Nombre" Title="Usuario Alta" Width="20%">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="Documento" Property="Correo" Title="Correo" Width="20%">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="Documento" Property="FechaAlta" Title="Fecha Captura" Width="20%">
+                    </RadzenDataGridColumn>
                     @if (_identity.Rol != "Negocio")
                     {
                         <RadzenDataGridColumn TItem="Documento" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
@@ -95,66 +95,67 @@
                                 </RadzenButton></Template></RadzenDataGridColumn>
                     }
 
-                                </Columns>
-                            </RadzenDataGrid>
+                </Columns>
+            </RadzenDataGrid>
 
         </ChildContent>
     </RadzenContent>
 }
 @if (!_identity.IsAuthenticated)
-       { 
-            <p>Usuario Verificado: @_identity.IsAuthenticated</p>
-            <p>Usuario: @(_identity.Name ?? "")</p>
-            <p>Email: @(_identity.Email ?? "correo no disponible")</p>
-            <h2>"El usuario no es esta Autorizado para esta pantalla"</h2>
-       }
+{
+    <p>Usuario Verificado: @_identity.IsAuthenticated</p>
+    <p>Usuario: @(_identity.Name ?? "")</p>
+    <p>Email: @(_identity.Email ?? "correo no disponible")</p>
+    <h2>"El usuario no es esta Autorizado para esta pantalla"</h2>
+}
 
 @code {
 
     private string rutaArchivo = String.Empty;
 
-    string ?IdNegocio;
+    string? IdNegocio;
     DateTime periodo;
-    string ?msgError;
+    string? msgError;
     string? fileName;
 
     bool isValid;
     int IdUsuario;
+    bool cargando = true;
 
     static IConfigurationBuilder configBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
     IConfiguration configuration = configBuilder.Build();
 
     private IWebHostEnvironment environment;
 
-    private IEnumerable<Negocio> ?INegocio;
-    private IEnumerable<cTasaCero> ?tasaCero;
+    private IEnumerable<Negocio>? INegocio;
+    private IEnumerable<cTasaCero>? tasaCero;
     private IEnumerable<Documento>? documentos;
 
     //Negocio model = new Negocio();
-    cDataStage datastage = new cDataStage();
+    private cDataStage datastage = new cDataStage();
 
     private string value;
     private string filename_complete;
 
-    private static List<cDataStage> ?lista { get; set; }
+    private static List<cDataStage>? lista { get; set; }
     bool deshabilitado = false;
 
 
     int progress;
     string info;
 
-    void OnProgress(UploadProgressArgs args,  string name)
+    void OnProgress(UploadProgressArgs args, string name)
     {
         string filename = String.Empty;
         foreach (var file in args.Files)
-        filename = file.Name;
+            filename = file.Name;
 
         if (filename.Substring(filename.Length - 4, 4) != ".asc" && filename.Substring(filename.Length - 4, 4) != ".txt")
         {
             msgError = "Tipo de archivo no valido";
             return;
         }
-        
+
         this.info = $"% '{name}' ";// / {args.Loaded} of {args.Total} bytes.";
         this.progress = args.Progress;
 
@@ -167,39 +168,82 @@
 
         if (this.progress == 100)
         {
+
             lista = CargaDoc(filename_complete);
             msgError = "";
         }
-        else     
+        else
             msgError = "Cargando Archivo...";
 
         fileName = filename;
-        
+
+    }
+
+
+    void AwaitFile()
+    {
+        //Your File
+        var file = new System.IO.FileInfo(filename_complete);
+
+        //While File is not accesable because of writing process
+        while (IsFileLocked(file)) { }
+
+        //File is available here
+
+    }
+
+    protected virtual bool IsFileLocked(System.IO.FileInfo file)
+    {
+        FileStream stream = null;
+
+        try
+        {
+            stream = file.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+        }
+        catch (IOException)
+        {
+            return true;
+        }
+        finally
+        {
+            if (stream != null)
+                stream.Close();
+        }
+
+        //file is not locked
+        return false;
     }
 
     private List<cDataStage> CargaDoc(string value)
     {
+        cargando = true;
         isValid = true;
         List<string[]> ?row = new List<string[]>();
         lista = new List<cDataStage>();
-      //  cDataStage datastage = new cDataStage();
+        string[] x;
+        //  cDataStage datastage = new cDataStage();
 
+        //System.Threading.Thread.Sleep(5000);
         try
         {
+            AwaitFile();
+
+            cargando = false;
             string[] lines = System.IO.File.ReadAllLines(value);
+
 
             foreach (var item in lines)// decodedString.Split(Environment.NewLine)) //outputFileString.Split(Environment.NewLine))
             {
-                var x = item.Split("|");
+                x = item.Split("|");
                 row.Add(x);
             }
 
             for (int i = 1; i < row.Count; i++)
             {
                 datastage = new cDataStage();
-                datastage.Id = i;// row[i][0].ToString();
-                datastage.IdPeriodo = i;// row[i][1].ToString();
-                datastage.PedimentoCompleto = "";// row[i][2].ToString();
+                //datastage.Id = 0;// row[i][0].ToString();
+                //datastage.IdPeriodo = 0;// row[i][1].ToString();
+                //datastage.PedimentoCompleto = "";// row[i][2].ToString();
                 datastage.Patente = row[i][0].ToString();
                 datastage.Pedimento = row[i][1].ToString();
                 datastage.SeccionAduanera = row[i][2].ToString();
@@ -219,8 +263,8 @@
                 datastage.CPProveedor = row[i][16].ToString();
                 datastage.MunicipioProveedor = row[i][17].ToString();
                 datastage.FechaPagoReal = row[i][18].ToString();
-                datastage.IdUsuarioCaptura = IdUsuario;
-                datastage.Estatus = "";
+                //datastage.IdUsuarioCaptura = IdUsuario;
+                //datastage.Estatus = "";
 
                 try
                 {
@@ -240,7 +284,7 @@
         {
             msgError = "Error al cargar el Archivo...";
             isValid = false;
-            return null;
+            return lista;
         }
     }
     protected override async Task OnInitializedAsync()
@@ -320,11 +364,11 @@
 
         if (!isValid)
         {
-            lista = CargaDoc(filename_complete);
-            msgError = "";
+            //lista = CargaDoc(filename_complete);
+            //msgError = "";
 
-         //   msgError = "Error al cargar el archivo, no tiene el formato correcto.";
-       //     return;
+            msgError = "Error al cargar el archivo, no tiene el formato correcto.";
+            return;
         }
 
         try
