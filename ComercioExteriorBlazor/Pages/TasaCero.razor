@@ -57,13 +57,15 @@
                                       PageSize="10" AllowSorting="true" ColumnWidth="150px" Data="@tasaCero" FilterMode="Radzen.FilterMode.Advanced" TItem="cTasaCero"
                                       RowSelect="@Grid0RowSelect">
                                 <Columns>
+                                    <RadzenDataGridColumn TItem="cTasaCero" Property="Pedimento" Title="Pedimento" Visible="true" Width="10%">
+                                    </RadzenDataGridColumn>
                                     <RadzenDataGridColumn TItem="cTasaCero" Property="UUID" Title="UUID" Visible="true" Width="24%">
                                     </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="cTasaCero" Property="Folio" Title="Folio" Width="15%">
+                                    <RadzenDataGridColumn TItem="cTasaCero" Property="Folio" Title="Folio" Width="12%">
                                     </RadzenDataGridColumn>
                                     <RadzenDataGridColumn TItem="cTasaCero" Property="rfcReceptor" Title="Receptor" Width="23%">
                                     </RadzenDataGridColumn>
-                                    <RadzenDataGridColumn TItem="cTasaCero" TextAlign="TextAlign.Right" Property="totalFactura" Title="Total" Width="18%">
+                                    <RadzenDataGridColumn TItem="cTasaCero" TextAlign="TextAlign.Right" Property="totalFactura" Title="Total" Width="12%">
                                     </RadzenDataGridColumn>
                                     <RadzenDataGridColumn TItem="cTasaCero" Property="EstatusCFDI" Title="Estatus" Width="20%">
                                     </RadzenDataGridColumn>

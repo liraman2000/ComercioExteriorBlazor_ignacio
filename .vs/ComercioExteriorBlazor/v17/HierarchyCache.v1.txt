@@ -3,33 +3,9 @@ i:{00000000-0000-0000-0000-000000000000}:ComercioExteriorBlazor.sln
 ++ComercioExteriorBlazor
 i:{00000000-0000-0000-0000-000000000000}:ComercioExteriorBlazor
 ++Connected Services 
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1269
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1239
 ++Dependencies
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1268
-++Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:analyzers
-++Assemblies
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:assemblies
-++Frameworks
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:frameworks
-++Packages
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:packages
-++Blazored.Modal (7.1.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1290
-++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1289
-++Microsoft.AspNetCore.Authentication.OpenIdConnect (6.0.7)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1285
-++Microsoft.EntityFrameworkCore.Design (7.0.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1284
-++Microsoft.Identity.Web (1.16.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1286
-++Microsoft.Identity.Web.UI (1.16.0)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1283
-++Radzen.Blazor (4.2.3)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1287
-++System.Data.SqlClient (4.8.3)
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1288
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1238
 ++Properties
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\
 ++wwwroot
@@ -38,8 +14,6 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\components\
 ++conectores
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\conectores\
-++BaseDatos.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\conectores\basedatos.cs
 ++Controllers
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\controllers\
 ++Data
@@ -48,140 +22,10 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\data\dataaccess.cs
 ++DataStage_tmp
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\datastage_tmp\
-++jose.lira.ext
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\datastage_tmp\jose.lira.ext\
 ++dlls
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\dlls\
 ++Models
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\
-++Pages
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\
-++_Host.cshtml
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\_host.cshtml
-++_Layout.cshtml
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\_layout.cshtml
-++AddUser.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\adduser.razor
-++Correo.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\correo.razor
-++Correo2.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\correo2.razor
-++Counter.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\counter.razor
-++Dash_Obs.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dash_obs.razor
-++DashBoard.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dashboard.razor
-++DataStage.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor
-++DataStage.razor.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor.cs
-++EditUser.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\edituser.razor
-++Error.cshtml
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\error.cshtml
-++Incidencias.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\incidencias.razor
-++Index.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\index.razor
-++Pedimentos.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor
-++TasaCero.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor
-++Usuarios.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor
-++Usuarios.razor.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor.cs
-++Services
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\
-++GlobalsService.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\globalsservice.cs
-++IdentityInformation.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\identityinformation.cs
-++SampleService.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\sampleservice.cs
-++Shared
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\
-++LoginDisplay.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\logindisplay.razor
-++MainLayout.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\mainlayout.razor
-++MainLayout.razor.css
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\mainlayout.razor.css
-++NavMenu.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\navmenu.razor
-++NavMenu.razor.css
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\navmenu.razor.css
-++SurveyPrompt.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\surveyprompt.razor
-++utilidades
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\
-++_Imports.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\_imports.razor
-++App.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\app.razor
-++appsettings.json
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\appsettings.json
-++InitialApplicationState.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\initialapplicationstate.cs
-++Program.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\program.cs
-++No service dependencies discovered
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1270
-++Microsoft.AspNetCore.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.13\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.13\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++System.Text.Json.SourceGeneration
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-++dll_Gis
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\dll_gis
-++Microsoft.AspNetCore.App
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\microsoft.netcore.app
-++PublishProfiles
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\publishprofiles\
-++launchSettings.json
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\launchsettings.json
-++serviceDependencies.json
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\servicedependencies.json
-++assets
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\assets\
-++css
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\css\
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\assets\css\
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\css\open-iconic\font\css\
-++script
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\script\
-++favicon.ico
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\favicon.ico
-++Dialog.razor
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\components\dialog.razor
-++UploadController.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\controllers\uploadcontroller.cs
-++test.asc
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\datastage_tmp\jose.lira.ext\test.asc
-++dll_Gis.dll
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\dlls\dll_gis.dll
 ++Sample
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\
 ++cDashboard.cs
@@ -210,6 +54,138 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\xml.cs
 ++Years.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\years.cs
+++Pages
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\
+++_Host.cshtml
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\_host.cshtml
+++_Layout.cshtml
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\_layout.cshtml
+++AddUser.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\adduser.razor
+++Correo.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\correo.razor
+++Correo2.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\correo2.razor
+++Counter.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\counter.razor
+++Dash_Obs.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dash_obs.razor
+++DashBoard.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dashboard.razor
+++DataStage.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor
+++DataStage.razor.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor.cs
+++DataStage.razor.designer.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor.designer.cs
+++EditUser.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\edituser.razor
+++Error.cshtml
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\error.cshtml
+++Incidencias.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\incidencias.razor
+++Index.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\index.razor
+++Pedimentos.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor
+++Pedimentos.razor.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor.cs
+++TasaCero.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor
+++TasaCero.razor.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor.cs
+++TasaCero.razor.designer.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor.designer.cs
+++Usuarios.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor
+++Usuarios.razor.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor.cs
+++Usuarios.razor.designer.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor.designer.cs
+++Services
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\
+++GlobalsService.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\globalsservice.cs
+++IdentityInformation.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\identityinformation.cs
+++SampleService.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\services\sampleservice.cs
+++Shared
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\
+++LoginDisplay.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\logindisplay.razor
+++MainLayout.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\mainlayout.razor
+++NavMenu.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\surveyprompt.razor
+++utilidades
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\
+++img
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\img\
+++Email.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\email.cs
+++Funciones.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\funciones.cs
+++ListtoDataTableConverter.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\listtodatatableconverter.cs
+++_Imports.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\_imports.razor
+++App.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\app.razor
+++appsettings.json
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\appsettings.json
+++InitialApplicationState.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\initialapplicationstate.cs
+++Program.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\program.cs
+++No service dependencies discovered
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1240
+++Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:analyzers
+++Assemblies
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:assemblies
+++Frameworks
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:frameworks
+++Packages
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:packages
+++PublishProfiles
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\publishprofiles\
+++launchSettings.json
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\launchsettings.json
+++serviceDependencies.json
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\servicedependencies.json
+++assets
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\assets\
+++css
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\css\
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\assets\css\
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\css\open-iconic\font\css\
+++script
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\script\
+++XMLDocs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\xmldocs\
+++favicon.ico
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\favicon.ico
+++Dialog.razor
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\components\dialog.razor
+++BaseDatos.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\conectores\basedatos.cs
+++UploadController.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\controllers\uploadcontroller.cs
+++jose.lira.ext
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\datastage_tmp\jose.lira.ext\
+++dll_Gis.dll
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\dlls\dll_gis.dll
+++Error.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\error.cs
+++Sample.Models.Sample.Order.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.order.cs
+++Sample.Models.Sample.OrderDetail.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.orderdetail.cs
+++Sample.Models.Sample.Product.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.product.cs
 ++AddUser.razor.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\adduser.razor.cs
 ++Correo.razor.cs
@@ -220,30 +196,68 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dash_obs.razor.cs
 ++DashBoard.razor.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\dashboard.razor.cs
-++DataStage.razor.designer.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\datastage.razor.designer.cs
 ++EditUser.razor.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\edituser.razor.cs
 ++Error.cshtml.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\error.cshtml.cs
 ++Incidencias.razor.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\incidencias.razor.cs
-++Pedimentos.razor.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor.cs
-++TasaCero.razor.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor.cs
-++Usuarios.razor.designer.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\usuarios.razor.designer.cs
-++img
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\img\
-++Email.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\email.cs
-++Funciones.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\funciones.cs
-++ListtoDataTableConverter.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\listtodatatableconverter.cs
+++Pedimentos.razor.designer.cs
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor.designer.cs
+++MainLayout.razor.css
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\shared\navmenu.razor.css
+++logoGis.png
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\img\logogis.png
 ++appsettings.Development.json
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.14\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.14\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\program files\dotnet\sdk\6.0.114\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\users\liram\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++dll_Gis
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\dlls\dll_gis.dll
+++Microsoft.AspNetCore.App
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\microsoft.netcore.app
+++Blazored.Modal (7.1.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1267
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.7)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1266
+++Microsoft.AspNetCore.Authentication.OpenIdConnect (6.0.7)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1262
+++Microsoft.EntityFrameworkCore.Design (7.0.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1261
+++Microsoft.Identity.Web (1.16.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1263
+++Microsoft.Identity.Web.UI (1.16.0)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1260
+++Radzen.Blazor (4.2.3)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1264
+++System.Data.SqlClient (4.8.3)
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:>1265
 ++FolderProfile.pubxml
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\properties\publishprofiles\folderprofile.pubxml
 ++FolderProfile1.pubxml
@@ -263,14 +277,12 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\css\site.css
 ++helper.js
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\script\helper.js
-++Error.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\error.cs
-++Sample.Models.Sample.Order.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.order.cs
-++Sample.Models.Sample.OrderDetail.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.orderdetail.cs
-++Sample.Models.Sample.Product.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\models\sample\sample.models.sample.product.cs
+++K 51203_Timbrado.xml
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\xmldocs\k 51203_timbrado.xml
+++SALF 6647_Timbrado.xml
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\xmldocs\salf 6647_timbrado.xml
+++505_Marzo22 Draxton.asc
+i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\datastage_tmp\jose.lira.ext\505_marzo22 draxton.asc
 ++AddUser.razor.designer.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\adduser.razor.designer.cs
 ++Correo.razor.designer.cs
@@ -285,12 +297,6 @@ i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\com
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\edituser.razor.designer.cs
 ++Incidencias.razor.designer.cs
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\incidencias.razor.designer.cs
-++Pedimentos.razor.designer.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\pedimentos.razor.designer.cs
-++TasaCero.razor.designer.cs
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\pages\tasacero.razor.designer.cs
-++logoGis.png
-i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\utilidades\img\logogis.png
 ++default.css
 i:{5d9924b2-6c39-4c93-aef5-5f38e9b38cc0}:c:\proyectos\comercioexteriorblazor\comercioexteriorblazor\wwwroot\assets\css\default.css
 ++styles.css

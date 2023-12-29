@@ -36,22 +36,22 @@
     <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
         <nav class="flex-column">
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="dash-board">
+                <NavLink class="nav-link" href="/dash-board">
                     <span class="oi oi-list-rich" aria-hidden="true"></span> DashBoard
                 </NavLink>
             </div>
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="data-stage">
+                <NavLink class="nav-link" href="/data-stage">
                     <span class="oi oi-list-rich" aria-hidden="true"></span> DataStage
                 </NavLink>
             </div>
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="incidencias">
+                <NavLink class="nav-link" href="/incidencias">
                     <span class="oi oi-list-rich" aria-hidden="true"></span> Incidencias
                 </NavLink>
             </div>
             <div class="nav-item px-3">
-                <NavLink class="nav-link" href="tasa-cero">
+                <NavLink class="nav-link" href="/tasa-cero">
                     <span class="oi oi-list-rich" aria-hidden="true"></span> Timbrados
                 </NavLink>
             </div>
@@ -63,7 +63,7 @@
             @if (_identity.Rol == "Comercio" || _identity.Rol=="Administrador")
             {
                 <div class="nav-item px-3">
-                    <NavLink class="nav-link" href="usuarios">
+                    <NavLink class="nav-link" href="/usuarios">
                         <span class="oi oi-list-rich" aria-hidden="true"></span> Usuarios
                     </NavLink>
                 </div>

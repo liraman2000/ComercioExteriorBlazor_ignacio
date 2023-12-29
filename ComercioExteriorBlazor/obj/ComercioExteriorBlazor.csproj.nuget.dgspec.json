@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {}
+    "C:\\Users\\JoséIgnacioLiraPeral\\Desktop\\bkp\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {
+    "C:\\Users\\JoséIgnacioLiraPeral\\Desktop\\bkp\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\JoséIgnacioLiraPeral\\Desktop\\bkp\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
         "projectName": "ComercioExteriorBlazor",
-        "projectPath": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
-        "packagesPath": "C:\\Users\\liram\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\obj\\",
+        "projectPath": "C:\\Users\\JoséIgnacioLiraPeral\\Desktop\\bkp\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\ComercioExteriorBlazor.csproj",
+        "packagesPath": "C:\\Users\\JoséIgnacioLiraPeral\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoséIgnacioLiraPeral\\Desktop\\bkp\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\liram\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\JoséIgnacioLiraPeral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/cVHaUHRsDnuiTCcRk7dVNmMz5NrbrqCvJCGtoIamoKytjIznPm/api": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -93,7 +92,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.113\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

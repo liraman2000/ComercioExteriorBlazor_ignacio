@@ -156,19 +156,16 @@
             return;
         }
 
-        this.info = $"% '{name}' ";// / {args.Loaded} of {args.Total} bytes.";
+        this.info = $"% '{name}' ";
         this.progress = args.Progress;
 
         string filepath = configuration.GetValue<string>("Parameter:urlDocumentos");
         string relativePath = Environment.CurrentDirectory + "\\" + filepath + "\\" + _identity.Username;
-        //foreach (var file in args.Files)
-        //    filename = file.Name;
 
         filename_complete = relativePath + "/" + filename;
 
         if (this.progress == 100)
         {
-
             lista = CargaDoc(filename_complete);
             msgError = "";
         }
@@ -221,9 +218,7 @@
         List<string[]> ?row = new List<string[]>();
         lista = new List<cDataStage>();
         string[] x;
-        //  cDataStage datastage = new cDataStage();
 
-        //System.Threading.Thread.Sleep(5000);
         try
         {
             AwaitFile();
@@ -265,13 +260,13 @@
                 datastage.FechaPagoReal = row[i][18].ToString();
                 //datastage.IdUsuarioCaptura = IdUsuario;
                 //datastage.Estatus = "";
-
                 try
                 {
                     lista.Add(datastage);
                 }
                 catch (Exception ex)
                 {
+                    msgError = ex.ToString();
                     datastage.Estatus = "Error";
                     lista.Add(datastage);
                 }
@@ -280,9 +275,10 @@
             isValid = true;
             return lista;
         }
-        catch
+        catch(Exception ex)
         {
-            msgError = "Error al cargar el Archivo...";
+    
+            msgError = ex.ToString();// "Error al cargar el Archivo...";
             isValid = false;
             return lista;
         }
@@ -367,8 +363,8 @@
             //lista = CargaDoc(filename_complete);
             //msgError = "";
 
-            msgError = "Error al cargar el archivo, no tiene el formato correcto.";
-            return;
+     //       msgError = "Error al cargar el archivo, no tiene el formato correcto.";
+        //    return;
         }
 
         try

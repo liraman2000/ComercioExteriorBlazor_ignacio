@@ -32,7 +32,7 @@ namespace ComercioExteriorBlazor.Data
                 conexionBD = fn.Desencriptar(configuration.GetConnectionString("conexion").ToString());
 
 
-                conexionBD += "rue";
+                conexionBD += "ity Info=True";
                 try
                 {
 
@@ -379,7 +379,8 @@ namespace ComercioExteriorBlazor.Data
                         //tasaCero.totalFactura = string.Format("{0:C}", Convert.ToDouble(dt.Rows[r]["Total"])) + " " +
                         //        dt.Rows[r]["moneda"].ToString();
                         tasaCero.EstatusCFDI = dt.Rows[r]["EstatusCFDI"].ToString();
-                        
+                        tasaCero.Pedimento = dt.Rows[r]["Pedimento"].ToString();
+
                         lista.Add(tasaCero);
                     }
                     boolProcess = true;

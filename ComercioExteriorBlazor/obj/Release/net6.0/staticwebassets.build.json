@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lMFdYeS71HDPKpv8Sbksj0GGRP2DI6tyWs/3i1FxLdk=",
+  "Hash": "xTCnsd+lEB5sCHCnxuVJfnQIHSjoTeNIZkXIp03QRR4=",
   "Source": "ComercioExteriorBlazor",
   "BasePath": "_content/ComercioExteriorBlazor",
   "Mode": "Default",
@@ -729,6 +729,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\script\\helper.js"
+    },
+    {
+      "Identity": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\wwwroot\\XMLDocs\\K 51203_Timbrado.xml",
+      "SourceId": "ComercioExteriorBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\wwwroot\\",
+      "BasePath": "_content/ComercioExteriorBlazor",
+      "RelativePath": "XMLDocs/K 51203_Timbrado.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\XMLDocs\\K 51203_Timbrado.xml"
+    },
+    {
+      "Identity": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\wwwroot\\XMLDocs\\SALF 6647_Timbrado.xml",
+      "SourceId": "ComercioExteriorBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\ComercioExteriorBlazor\\ComercioExteriorBlazor\\wwwroot\\",
+      "BasePath": "_content/ComercioExteriorBlazor",
+      "RelativePath": "XMLDocs/SALF 6647_Timbrado.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\XMLDocs\\SALF 6647_Timbrado.xml"
     },
     {
       "Identity": "C:\\Users\\liram\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\Blazored.Modal.bundle.scp.css",

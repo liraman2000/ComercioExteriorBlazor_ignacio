@@ -53,8 +53,6 @@
               <div class="col-md-9">
                 <RadzenTextBox MaxLength=50 style="width: 100%" @bind-Value="@(usuario.Correo)" Name="Negocio">
                 </RadzenTextBox>
-@*                <RadzenRequiredValidator Component="Correo" Text="Correo es requerido" style="position: absolute">
-                </RadzenRequiredValidator>*@
               </div>
             </div>
             <div style="margin-bottom: 1rem" class="row">
@@ -63,8 +61,6 @@
                 </RadzenLabel>
               </div>
               <div class="col-md-9">
-  @*              <RadzenTextBox style="width: 100%" @bind-Value="@(usuario.Negocio)" Name="Negocio">
-                </RadzenTextBox>*@
                <RadzenDropDown Data="@INegocio"  @ref="component"  Disabled=@deshabilita AllowClear="true" AllowFiltering="true" style="height: 31px" 
                TextProperty="Descripcion" ValueProperty="Id" Name="Negocio" TValue="string" @bind-Value=IdNegocio Change=@(negocio) Placeholder="Seleccione...">
                 </RadzenDropDown>

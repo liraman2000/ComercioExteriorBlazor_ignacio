@@ -1,0 +1,97 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  Version="3.3"
+  Serie="SALF"
+  Folio="6647"
+  Fecha="2022-03-22T12:04:42"
+  Sello="TrSX1mdAW2+KFIGiOYU9p1Nebx8R9yqZwt3p1cTwO3YtePkbR2aGO+1wE6tJrYK42Co9wiOUxxwqrhyIHxqqLYjjqff9MlozIWxIJVyXheaahPHpizsp6HlQXA/GkugRKWZnDLoIFO89RJewVAarzKN3gkLTdGdZN3/I+5ec9bShFEABAbj2AaZD7SojDWKkBLmHMDE+yvCKiTCfpXzOiMAZdo2/kaVyEY1qxWRV83nme6NOHhxhYjjVIc3L7uzIMvvB21JL0eZTSLs81YvRWoBKholFd0pYg+jHq5rKVupKR8hsutberLM3SBDWzU7XfajsD1GZ9lKmBbMnesTbZQ=="
+  FormaPago="99"
+  NoCertificado="00001000000502778087"
+  Certificado="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"
+  CondicionesDePago="30 DIAS"
+  SubTotal="31537.84"
+  Moneda="USD"
+  TipoCambio="20.4145"
+  Total="31537.84"
+  TipoDeComprobante="I"
+  MetodoPago="PPD"
+  LugarExpedicion="25230" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+  <cfdi:Emisor
+    Rfc="TIS820222I14"
+    Nombre="Draxton México, S. de R.L. de C.V."
+    RegimenFiscal="623" />
+  <cfdi:Receptor
+    Rfc="XEXX010101000"
+    Nombre="WORLDWIDE TECHNOLOGIES LLC"
+    ResidenciaFiscal="USA"
+    NumRegIdTrib="432096069"
+    UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto
+      ClaveProdServ="31101618"
+      NoIdentificacion="CS10118016294"
+      Cantidad="1440"
+      ClaveUnidad="H87"
+      Unidad="PZ"
+      Descripcion="ANCHOR PLATE CASTING"
+      ValorUnitario="21.9013"
+      Importe="31537.84" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos />
+  <cfdi:Complemento>
+    <cce11:ComercioExterior
+      Version="1.1"
+      TipoOperacion="2"
+      ClaveDePedimento="A1"
+      CertificadoOrigen="0"
+      Incoterm="FCA"
+      Subdivision="0"
+      TipoCambioUSD="20.4145"
+      TotalUSD="31537.84">
+      <cce11:Emisor>
+        <cce11:Domicilio
+          Calle="Av. Promoción"
+          NumeroExterior="No. 145"
+          Colonia="0244"
+          Estado="SLP"
+          Pais="MEX"
+          CodigoPostal="78395" />
+      </cce11:Emisor>
+      <cce11:Receptor>
+        <cce11:Domicilio
+          Calle="145 REASONOVER DRIVE"
+          Municipio="FRANKLIN"
+          Estado="KY"
+          Pais="USA"
+          CodigoPostal="42134" />
+      </cce11:Receptor>
+      <cce11:Destinatario
+        NumRegIdTrib="432096069"
+        Nombre="WORLDWIDE TECHNOLOGIES LLC">
+        <cce11:Domicilio
+          Calle="145 REASONOVER DRIVE"
+          Municipio="FRANKLIN"
+          Estado="KY"
+          Pais="USA"
+          CodigoPostal="42134" />
+      </cce11:Destinatario>
+      <cce11:Mercancias>
+        <cce11:Mercancia
+          NoIdentificacion="CS10118016294"
+          FraccionArancelaria="8708309999"
+          CantidadAduana="1440.00"
+          UnidadAduana="06"
+          ValorUnitarioAduana="21.90"
+          ValorDolares="31537.84" />
+      </cce11:Mercancias>
+    </cce11:ComercioExterior>
+    <tfd:TimbreFiscalDigital
+      FechaTimbrado="2022-03-22T12:05:22"
+      RfcProvCertif="EDI101020E99"
+      UUID="1ed8b76a-c8b7-47df-8219-b04247b57e3c"
+      NoCertificadoSAT="00001000000506267356"
+      SelloCFD="TrSX1mdAW2+KFIGiOYU9p1Nebx8R9yqZwt3p1cTwO3YtePkbR2aGO+1wE6tJrYK42Co9wiOUxxwqrhyIHxqqLYjjqff9MlozIWxIJVyXheaahPHpizsp6HlQXA/GkugRKWZnDLoIFO89RJewVAarzKN3gkLTdGdZN3/I+5ec9bShFEABAbj2AaZD7SojDWKkBLmHMDE+yvCKiTCfpXzOiMAZdo2/kaVyEY1qxWRV83nme6NOHhxhYjjVIc3L7uzIMvvB21JL0eZTSLs81YvRWoBKholFd0pYg+jHq5rKVupKR8hsutberLM3SBDWzU7XfajsD1GZ9lKmBbMnesTbZQ=="
+      SelloSAT="kk3UxvnWjwibQ10rhcTr3Cr7IxpQZ+VRGwNGGp/mlhKlMHStIi9RDDG6FIorvwxQvjai+sH4d5ynIbEVc53E8excvknHbAKZUkaUDmYvDFaCdWBdfx4CSfNAdvLTK4KpNeWqPumZHJx+/shSIgM4A0fV7pibbmptxqu2SXaV1Jp5/AbZuXBHLAb7lUJQNhJTaWCIRojNuHgR30bE0IBTr+Sakw+yr6W5yRcKUW6v0rTazgHWySgSoL2eJ9Pt5zrCnUIuFqqzKBCzaL1d9cfLxCMKhG3tQZ29A5O+e3PWdUN3NH5oCg3t0Z1+bVXUyKyO6ef51OhGR7KZYx60aGM0qQ=="
+      Version="1.1"></tfd:TimbreFiscalDigital>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

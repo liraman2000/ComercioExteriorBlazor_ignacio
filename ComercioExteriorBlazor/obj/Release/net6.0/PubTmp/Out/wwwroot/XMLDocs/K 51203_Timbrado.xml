@@ -1,0 +1,198 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  Version="3.3"
+  Serie="K"
+  Folio="51203"
+  Fecha="2022-02-11T05:31:08"
+  Sello="qyVulM/rm/SQXxCW4FzGaSVeK9XhAyNFeKF6/CQq11pn0VNfrtyh7m/ZIMoFJipb7wypQ9vef1LtAiHmfT3aKB2tB2fTXoyOLnvJDWZypzVGV+SJmNlCpzpS7Eo1MfDfqukx49i874FFOeGqdcX62zWbpnucwb+M8Jfuc8/W3g85rzeSb9XBvnZK/LEzjF2ZibRPXy1zliA/FaSQAphyNT6cbdDgs+k9rK7Bs25HnBHAO3PYniM13waDxTQAAplk9RjG8PACo7VTf2C/rH+5UKoT5o0TIj8VX7iodj6o5lNneYA2upe5A9ilJ1w2kn5ev9UtB0TK5gDXMBenj+G93w=="
+  FormaPago="99"
+  NoCertificado="00001000000509711858"
+  Certificado="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"
+  CondicionesDePago="90 DIAS FECHA FACTURA, MFS VITROMEX."
+  SubTotal="3417.60"
+  Moneda="USD"
+  TipoCambio="20.5008"
+  Total="3417.60"
+  TipoDeComprobante="I"
+  MetodoPago="PPD"
+  LugarExpedicion="78422" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+  <cfdi:Emisor
+    Rfc="MVI980219JM8"
+    Nombre="MANUFACTURAS VITROMEX S.A DE C.V."
+    RegimenFiscal="623" />
+  <cfdi:Receptor
+    Rfc="XEXX010101000"
+    Nombre="INVERSIONES CYS SA"
+    ResidenciaFiscal="PER"
+    NumRegIdTrib="20215528791"
+    UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-1"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-2"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-3"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-8"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-5"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-6"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-7"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+    <cfdi:Concepto
+      ClaveProdServ="30161706"
+      NoIdentificacion="522548254282681-4"
+      Cantidad="32"
+      ClaveUnidad="XBX"
+      Unidad="CJ"
+      Descripcion="PISO SAN GABRIEL BR GRAY 50X100 CM 1.5 M2CAJA RECTIFICADO 32 CAJAS MARCAS VITROMEX.VITROPISO.V+"
+      ValorUnitario="13.35"
+      Importe="427.20" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos />
+  <cfdi:Complemento>
+    <cce11:ComercioExterior
+      Version="1.1"
+      TipoOperacion="2"
+      ClaveDePedimento="A1"
+      CertificadoOrigen="0"
+      Incoterm="FOB"
+      Subdivision="0"
+      TipoCambioUSD="20.5008"
+      TotalUSD="3417.60">
+      <cce11:Emisor>
+        <cce11:Domicilio
+          Calle="Eje 140 Esq. Morelos"
+          NumeroExterior="420"
+          Estado="SLP"
+          Pais="MEX"
+          CodigoPostal="78422" />
+      </cce11:Emisor>
+      <cce11:Receptor>
+        <cce11:Domicilio
+          Calle="AV LA MOLINA No 473  ATE"
+          Municipio="LIMA"
+          Estado="LIMA"
+          Pais="PER"
+          CodigoPostal="L03" />
+      </cce11:Receptor>
+      <cce11:Mercancias>
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-1"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-2"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-3"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-8"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-5"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-6"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-7"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+        <cce11:Mercancia
+          NoIdentificacion="522548254282681-4"
+          FraccionArancelaria="6907220201"
+          CantidadAduana="48.00"
+          UnidadAduana="04"
+          ValorUnitarioAduana="8.90"
+          ValorDolares="427.20" />
+      </cce11:Mercancias>
+    </cce11:ComercioExterior>
+    <tfd:TimbreFiscalDigital
+      FechaTimbrado="2022-02-11T05:46:08"
+      RfcProvCertif="EDI101020E99"
+      UUID="dc1b1f95-078b-45df-867f-4b28abfb397d"
+      NoCertificadoSAT="00001000000506267356"
+      SelloCFD="qyVulM/rm/SQXxCW4FzGaSVeK9XhAyNFeKF6/CQq11pn0VNfrtyh7m/ZIMoFJipb7wypQ9vef1LtAiHmfT3aKB2tB2fTXoyOLnvJDWZypzVGV+SJmNlCpzpS7Eo1MfDfqukx49i874FFOeGqdcX62zWbpnucwb+M8Jfuc8/W3g85rzeSb9XBvnZK/LEzjF2ZibRPXy1zliA/FaSQAphyNT6cbdDgs+k9rK7Bs25HnBHAO3PYniM13waDxTQAAplk9RjG8PACo7VTf2C/rH+5UKoT5o0TIj8VX7iodj6o5lNneYA2upe5A9ilJ1w2kn5ev9UtB0TK5gDXMBenj+G93w=="
+      SelloSAT="kWgOk9brShkGLL1DcQ7txPtHqyaGstF/jplGMNKzL42kVOS5f7SVLVxTDOWi2TCW6SyrBGKgVLS5pCJZ4F0NVhBnt7jMELof3WRTDpb51Tf6FHzpOBPmV8XPC+piuUOBGlvOs9KgAtznoYS5kjKl8j59j7A4UhR4bP0yH8VrmrFHfIuf+EAq0ZIIfbpKWaCE6A1ruTOe8KEeQdvCcuYIbJB6xiZQyzmxvgzVC5ahYvm+fNnFEGjEf/bneDXrowiCqg5ObhvqkbwLUO6E1PRzxspZUflEBe1TlW0YOSi9Lv+GlbnJacdScLqEwYgrbZU0GfeiIhFdNQjqOZgackXgTg=="
+      Version="1.1"></tfd:TimbreFiscalDigital>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
